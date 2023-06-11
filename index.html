@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/73305de8fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pricing table</title>
+  </head>
+  <body
+    class="w-screen h-screen flex items-center justify-center bg-[#F3FBFB] font-[poppins]"
+  >
+    <div class="md:w-5/6 w-screen h-screen md:h-5/6">
+      <h1 class="font-bold md:text-4xl text-2xl mt-4 text-center">
+        Find the best plan for you
+      </h1>
+      <div
+        class="flex items-center md:items-center justify-center space-x-8 mt-4"
+      >
+        <div class="md:space-x-2">
+          <input type="radio" name="date" id="monthly" />
+          <label for="monthly" class="text-xl">Billed monthly</label>
+        </div>
+        <div class="md:space-x-2">
+          <input type="radio" class="" name="date" id="yearly" />
+          <label for="yearly" class="text-xl">Billed yearly</label>
+        </div>
+      </div>
+      <div
+        class="flex items-center flex-col md:flex-row gap-2 mt-12 p-0 md:px-8 justify-between"
+      >
+        <div class="bg-white p-4 shadow-md w-[90%] md:w-full flex-1">
+          <h2 class="font-bold text-xl">Standard</h2>
+          <p class="mt-8 font-semibold text-2xl">9 Eur</p>
+          <small class="text-sm">per person, per month</small>
+          <div class="mt-8 space-y-2">
+            <h3 class="font-bold text-md">Top feature:</h3>
+            <p><i class="fa-solid fa-check mr-2"></i> Unlimited search</p>
+            <p><i class="fa-solid fa-check mr-2"></i>10 apps</p>
+            <p><i class="fa-solid fa-check mr-2"></i>Group calls</p>
+          </div>
+          <button
+            class="font-semibold flex items-center justify-center text-lg border-2 rounded-3xl mx-auto px-6 py-1 outline-none mt-8 border-[#868C94] hover:bg-[#222A3D] hover:text-white transition"
+          >
+            Try for free
+          </button>
+          <p class="text-sm text-center text-blue-500 mt-2">Learn more</p>
+        </div>
+        <div class="bg-white p-4 shadow-md w-[90%] md:w-full flex-1">
+          <h2 class="font-bold text-xl">Advanced</h2>
+          <p class="mt-8 font-semibold text-2xl">15 Eur</p>
+          <small class="text-sm">per person, per month</small>
+          <div class="mt-8 space-y-2">
+            <h3 class="font-bold text-md">Top feature:</h3>
+            <p><i class="fa-solid fa-check mr-2"></i> Unlimited search</p>
+            <p><i class="fa-solid fa-check mr-2"></i>10 apps</p>
+            <p><i class="fa-solid fa-check mr-2"></i>Group calls</p>
+          </div>
+          <button
+            class="font-semibold text-center flex items-center justify-center text-lg border-2 rounded-3xl mx-auto px-6 py-1 outline-none mt-8 border-[#868C94] hover:bg-[#222A3D] hover:text-white transition"
+          >
+            Try for free
+          </button>
+          <p class="text-sm text-center text-blue-500 mt-2">Learn more</p>
+        </div>
+        <div class="bg-white p-4 shadow-md w-[90%] md:w-full flex-1">
+          <h2 class="font-bold text-xl">Enterprise</h2>
+          <p class="mt-8 font-semibold text-2xl">Let's talk</p>
+          <small class="text-sm">per person, per month</small>
+          <div class="mt-8 space-y-2">
+            <h3 class="font-bold text-md">Top feature:</h3>
+            <p><i class="fa-solid fa-check mr-2"></i> Unlimited search</p>
+            <p><i class="fa-solid fa-check mr-2"></i>10 apps</p>
+            <p><i class="fa-solid fa-check mr-2"></i>Group calls</p>
+          </div>
+          <button
+            class="font-semibold text-center flex items-center justify-center text-lg border-2 rounded-3xl mx-auto px-6 py-1 outline-none mt-8 border-[#868C94] hover:bg-[#222A3D] hover:text-white transition"
+          >
+            Try for free
+          </button>
+          <p class="text-sm text-center text-blue-500 mt-2">Learn more</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
